@@ -2,8 +2,8 @@
 #######################################################################################
 # BBVA Mexico: AUTO SERVICIO INVITACION                                                #
 # Archivo             : Recuperacion BBVA                                              #
-# Autor               : Operative Scheduling                                           #
-# Objetivo            : Recupera el archivo  :                                         #
+# Autor               : Diego Rodrigo Fernández Zamora                                 #
+# Objetivo            : Recupera el archivo :RX_ARCH_RES_TYC_AAAAMMDD                  #
 #                        - nombre del Archivo                                          #
 #                       de Equipo     ruta Origen                                      #
 #                       a  Entidad Externa  Ruta destino                               #

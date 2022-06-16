@@ -2,18 +2,10 @@
 #######################################################################################
 # BBVA Mexico: AUTO SERVICIO INVITACION                                                #
 # Archivo             : Recuperacion BBVA                                              #
-# Autor               : Operative Scheduling                                           #
-# Objetivo            : Recupera el archivo  :                                         #
-#                        - nombre del Archivo                                          #
-#                       de Equipo     ruta Origen                                      #
-#                       a  Entidad Externa  Ruta destino                               #
+# Autor               : Diego Rodrigo Fernández Zamora                                 #
+# Objetivo            : Recupera el archivo : TX_MX_RX_ARCH_RES_TPV_AAAAMMDD           #
 # Periodicidad        : Diario                                                         #
-# Creacion            :                                                                #
-# Genera              : SHELL que RECSFTP.sh  que realiza la Recuperación              #
-# El nombre del script puede se RECSFTP_entidad.sh (debe de ser consecutivo)           #
-# Nota:El nombre del archivo es una variable que se configura en el job de ctrl-M      #
 #######################################################################################
-
 
 set -xv
 

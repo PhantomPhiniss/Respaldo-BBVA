@@ -3,23 +3,18 @@
 # BBVA Mexico: AUTO SERVICIO INVITACION                                                #
 # Archivo             : Envio de Archivo                                               #
 # Autor               : Diego Rodrigo Fernanadez Zamora                                #
-# Objetivo            : Transmite el archivo  :                                        #
-#                        - Envio_BBVA		                                             #
-#                       de Equipo     ruta Origen                                      #
-#                       a  Entidad Externa  Ruta destino                               #
+# Objetivo            : Transmite el archivo : TX_MX_ARCH_INV_CCR_AAAAMMDD             #
 # Periodicidad        : Diaria                                                         #
 # Creacion            :                                                                #
 # Genera              : SHELL que tranSFTP.sh  que realiza la transmision              #  
-# El nombre del script tranSFTP.sh puede se tranSFTP_entidad.sh                        #
-#(debe de ser consecutivo)                                                             #
-# Nota: El nombre del archivo es una variable que se configura en el job de ctrl-M     #
 #######################################################################################
-#
+
 set -xv
 
 ######################################
 #     Variables de directorios       #
 ######################################
+
 ROOT_PATH=/filesystem/sftptrans/Qualtrics
 PATH_SHELL=${ROOT_PATH}
 

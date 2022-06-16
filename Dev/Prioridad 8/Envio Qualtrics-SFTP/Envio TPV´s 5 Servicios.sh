@@ -3,16 +3,8 @@
 # BBVA Mexico: AUTO SERVICIO INVITACION                                                #
 # Archivo             : Envio de Archivo Invitación TPV                                #
 # Autor               : Diego Rodrigo Fernández Zamora                                 #
-# Objetivo            : Transmite el archivo  :                                        #
-#                        - Envio_BBVA		                                             #
-#                       de Equipo     ruta Origen                                      #
-#                       a  Entidad Externa  Ruta destino                               #
+# Objetivo            : Transmite el archivo : TX_MX_ARCH_INV_TPV_AAAAMMDD             #
 # Periodicidad        : Diario                                                         #
-# Creacion            :                                                                #
-# Genera              : SHELL que tranSFTP.sh  que realiza la transmision              #  
-# El nombre del script tranSFTP.sh puede se tranSFTP_entidad.sh                        #
-#(debe de ser consecutivo)                                                             #
-#                                                                                      #
 #######################################################################################
 
 set -xv

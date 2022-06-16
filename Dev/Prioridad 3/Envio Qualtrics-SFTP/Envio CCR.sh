@@ -2,8 +2,8 @@
 #######################################################################################
 # BBVA Mexico: AUTO SERVICIO INVITACION                                                #
 # Archivo             : Envio de Archivo                                               #
-# Autor               : Operative Scheduling                                           #
-# Objetivo            : Transmite el archivo  :                                        #
+# Autor               : Diego Rodrigo Fernández Zamora                                 #
+# Objetivo            : Transmite el archivo : TX_MX_ARCH_INV_CCR_AAAAMMDD             #
 #                        - Envio_BBVA		                                             #
 #                       de Equipo     ruta Origen                                      #
 #                       a  Entidad Externa  Ruta destino                               #

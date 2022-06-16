@@ -2,18 +2,10 @@
 #######################################################################################
 # BBVA Mexico: AUTO SERVICIO INVITACION                                                #
 # Archivo             : Recuperacion BBVA                                              #
-# Autor               : Operative Scheduling                                           #
-# Objetivo            : Recupera el archivo  :                                         #
-#                        - nombre del Archivo                                          #
-#                       de Equipo     ruta Origen                                      #
-#                       a  Entidad Externa  Ruta destino                               #
+# Autor               : Diego Rodrigo Fernández Zamora                                 #
+# Objetivo            : Recupera el archivo : RX_ARCH_RES_RESERSIONES_AAAAMMDD         #
 # Periodicidad        : Mensual                                                        #
-# Creacion            :                                                                #
-# Genera              : SHELL que RECSFTP.sh  que realiza la Recuperación              #
-# El nombre del script puede se RECSFTP_entidad.sh (debe de ser consecutivo)           #
-# Nota:El nombre del archivo es una variable que se configura en el job de ctrl-M      #
 #######################################################################################
-
 
 set -xv
 
@@ -27,8 +19,7 @@ PATH_SHELLS=${ROOT_PATH}scripts   ###Ruta donde están los scripts
 #### Nombre del archivo
 NOM_ARCH=${ARCH_RES_RESERSIONES_AAAAMMD
 D}
-NOM_ARCH_SHELL="RX_ARCH_RES_RESERSIONES_AAAAMMD
-D.sh"  
+NOM_ARCH_SHELL="RX_ARCH_RES_RESERSIONES_AAAAMMDD.sh"  
 
 
 #Se determina RUTA ORIGEN Entidad_Externa

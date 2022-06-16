@@ -1,20 +1,12 @@
 !/bin/bash
 #######################################################################################
 # BBVA Mexico: AUTO SERVICIO INVITACION                                                #
-# Archivo             : Envio de Archivo Invitación Solo Pago                          #
+# Archivo             : Envio de Archivo Invitación                                    #
 # Autor               : Diego Rodrigo Fernández Zamora                                 #
-# Objetivo            : Transmite el archivo  : Archivo de Invitación de SoloPago      #
-#                        -                                                             #
-#                       de Equipo     ruta Origen                                      #
-#                       a  Entidad Externa  Ruta destino                               #
+# Objetivo            : Transmite el archivo : TX_MX_ARCH_INV_AUTOAGENCIAS_AAAAMMDD    #
 # Periodicidad        : Trimestral                                                     #
-# Creacion            :                                                                #
-# Genera              : SHELL que tranSFTP.sh  que realiza la transmision              #  
-# El nombre del script tranSFTP.sh puede se tranSFTP_entidad.sh                        #
-#                                                                                      #
-#                                                                                      #
 #######################################################################################
-#
+
 set -xv
 
 ######################################
@@ -24,8 +16,7 @@ set -xv
 ROOT_PATH=/filesystem/sftptrans/Qualtrics
 PATH_SHELL=${ROOT_PATH}
 
-NOM_ARCH=${ARCH_INV_AUTOAGENCIAS_AAAAMM
-DD}
+NOM_ARCH=${ARCH_INV_AUTOAGENCIAS_AAAAMMDD}
 
 # Se determina ruta ORIGEN y SERVIDOR   ########
 
