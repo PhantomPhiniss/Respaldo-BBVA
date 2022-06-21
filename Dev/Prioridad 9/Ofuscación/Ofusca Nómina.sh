@@ -30,25 +30,22 @@ OUTPUT_PATH=${ROOT_PATH}/output
 SHELLS_PATH=${ROOT_PATH}/shells
 PARAMETERS_PATH=${ROOT_PATH}/config
 
-#
 #################################################
 # Variables de entorno					            #
 #################################################
 
-ISERVERIPC_DES=
-ISERVERIPC_PROD=
-SEGMENT=
-SERVER_OFUSCA_DES=
-SERVER_OFUSCA_PROD=
-SERVER_OFUSCA_PROD=
+ISERVERIPC_DES=150.100.43.251
+ISERVERIPC_PROD=150.50.102.246
+SERVER_OFUSCA_DES=Test@150.100.43.251
+SERVER_OFUSCA_PROD=zmpreve@150.50.102.246
 INSTRUCC_DES=Ofuscamiento
 INSTRUCC_PROD=./Ofuscamiento.sh
 USUARIO_DES=
 PASS_DES=
 USUARIO_PROD=etladmin
 PASS_PROD=
-INPUT_FILE=
-OUTPUT_FILE=
+INPUT_FILE=ARCH_INV_NOMINA_AAAAMMDD.txt
+OUTPUT_FILE=ARCH_RES_NOMINA_AAAAMMDD.txt
 
 #
 #################################################

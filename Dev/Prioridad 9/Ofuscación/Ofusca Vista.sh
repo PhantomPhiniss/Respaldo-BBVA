@@ -1,13 +1,9 @@
 !/bin/bash
 #######################################################################################
-# Bancomer BBVA Mexico                                                                #
+# BBVA Mexico                                                                         #
 # Archivo        :                                                                    #
 # Autor          : Diego Rodrigo Fernández Zamora                                     #
-# Proposito      : Shell para la ejecución del Ofuscamiento - 
-# Parametros     : 
-# Ejecucion      : ****Preguntar la fecha y hora de ejecucion***                      #
-# Historia            : 20140924 --> Creacion                                         #
-# Caja de Control - M :  *******Preguntar por caja de control-M****                   #
+# Proposito      : Shell para la ejecución del Ofuscamiento                           #
 ####################################################################################### 
 
 set -xv
@@ -35,20 +31,18 @@ PARAMETERS_PATH=${ROOT_PATH}/config
 # Variables de entorno					            #
 #################################################
 
-ISERVERIPC_DES=
-ISERVERIPC_PROD=
-SEGMENT=
-SERVER_OFUSCA_DES=
-SERVER_OFUSCA_PROD=
-SERVER_OFUSCA_PROD=
+ISERVERIPC_DES=150.100.43.251
+ISERVERIPC_PROD=150.50.102.246
+SERVER_OFUSCA_DES=Test@150.100.43.251
+SERVER_OFUSCA_PROD=zmpreve@150.50.102.246
 INSTRUCC_DES=Ofuscamiento
 INSTRUCC_PROD=./Ofuscamiento.sh
 USUARIO_DES=
 PASS_DES=
 USUARIO_PROD=etladmin
 PASS_PROD=
-INPUT_FILE=
-OUTPUT_FILE=
+INPUT_FILE=ARCH_INV_VISTA_AAAAMMDD.txt
+OUTPUT_FILE=ARCH_RES_VISTA_AAAAMMDD.txt
 
 #
 #################################################

@@ -1,15 +1,8 @@
 !/bin/bash
 #######################################################################################
-# Bancomer BBVA Mexico
-# Archivo        : EP_0014_d_RQ062.sh 
-# Autor          : INDRA
-# Proposito      : Shell para la ejecución del Des ofuscamiento - CLIENTE LBMR ASESOR.
-# Parametros     : 
-# Ejecucion      : ****Preguntar la fecha y hora de ejecucion***
-# Historia            : 20151201 --> Creacion 
-# Caja de Control - M :  *******Preguntar por caja de control-M****
-# Observaciones       : 
-# Dependencias        : 
+# BBVA Mexico                                                                          #
+# Autor          : Diego Rodrigo Fernández Zamora                                      #
+# Proposito      : Shell para la ejecución del Des ofuscamiento                        #
 ####################################################################################### 
 
 set -xv
@@ -37,21 +30,18 @@ SHELLS_PATH=${ROOT_PATH}/shells
 # Variables de entorno					        #
 #################################################
 ISERVERIPC_DES=150.50.102.246
-ISERVERIPC_PROD=150.100.246.100
-SEGMENT=150.50.102
-SERVER_DESOFUSCA_DES=Test@150.100.229.134
-#SERVER_DESOFUSCA_PROD=zmpreve@150.100.229.118
-SERVER_DESOFUSCA_PROD=zmpreve@150.100.191.147
+ISERVERIPC_PROD=150.100.43.251
+SERVER_DESOFUSCA_DES=Test@150.50.102.246
+SERVER_DESOFUSCA_PROD=zmpreve@150.100.43.251
 INSTRUCC_DES=Desofuscamiento
 INSTRUCC_PROD=./Desofuscamiento.sh
-USUARIO_DES=xm06221
-PASS_DES=IRENE0617
+USUARIO_DES=
+PASS_DES=
 USUARIO_PROD=etladmin
 PASS_PROD=
-INPUT_FILE=CLIE_OFUS_BPYPREL.txt
-OUTPUT_FILE=Clie_BPYPREL_desofuscado.txt
+INPUT_FILE=ARCH_INV_TYC_AAAAMMDD.txt
+OUTPUT_FILE=ARCH_INV_TYC_AAAAMMDD.txt
 
-#
 #################################################
 # Valida el servidor en el que se encuentra     #
 #################################################
@@ -75,6 +65,7 @@ else
 	INSTRUCC=${INSTRUCC_PROD}
 	SERVER_DESOFUSCA=${SERVER_DESOFUSCA_PROD}
 fi
+
 #################################################
 # Proceso     #
 #################################################
@@ -107,5 +98,6 @@ main_descofusca ()
 #######################################
 #  Ejecución de shell                 #
 #######################################
+
 echo "Comienza ejecucion DesOfuscamiento ${PROCESO}"
 main_descofusca

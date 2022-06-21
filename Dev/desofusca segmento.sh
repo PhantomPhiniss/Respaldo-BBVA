@@ -1,4 +1,4 @@
-#!/bin/bash
+!/bin/bash
 #######################################################################################
 # Bancomer BBVA Mexico
 # Archivo        : EP_0014_d_RQ061.sh 
@@ -35,20 +35,20 @@ SHELLS_PATH=${ROOT_PATH}/shells
 # Variables de entorno					            #
 #################################################
 
-ISERVERIPC_DES=150.50.102.246
-ISERVERIPC_PROD=150.100.246.100
-SEGMENT=150.50.102
+ISERVERIPC_DES=
+ISERVERIPC_PROD=
+SEGMENT=
 SERVER_DESOFUSCA_DES=Test@150.100.229.134
-#SERVER_DESOFUSCA_PROD=zmpreve@150.100.229.118
+SERVER_DESOFUSCA_PROD=zmpreve@150.100.229.118
 SERVER_DESOFUSCA_PROD=zmpreve@150.100.191.147
 INSTRUCC_DES=Desofuscamiento
 INSTRUCC_PROD=./Desofuscamiento.sh
-USUARIO_DES=xm06221
-PASS_DES=IRENE0617
+USUARIO_DES=
+PASS_DES=
 USUARIO_PROD=etladmin
 PASS_PROD=
-INPUT_FILE=Seg_Ofu_BPYPREL.txt
-OUTPUT_FILE=Seg_BPYPREL_desofuscado.txt
+INPUT_FILE=
+OUTPUT_FILE=
 
 #
 #################################################
