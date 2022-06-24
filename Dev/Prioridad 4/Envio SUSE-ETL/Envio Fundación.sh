@@ -18,7 +18,7 @@ set -xv
 ROOT_PATH=/filesystem/sftptrans/Qualtrics
 PATH_SHELL=${ROOT_PATH}
 
-NOM_ARCH=${INV_FUNDACION_AAAAMMDD}
+NOM_ARCH=${TX_MX_INV_FUNDACION_AAAAMMDD}
 
 # Se determina ruta ORIGEN y SERVIDOR   ########
 ORIGEN=LVDSFTPMX01
@@ -33,7 +33,7 @@ if [ -s ${PATH_ORIGEN}/${NOM_ARCH} ]
    then
       echo "Registros en Archivo ${NOM_ARCH} : $(LINEA -l ${PATH_DESTINO}/${NOM_ARCH}|awk '{ print $1 }')"
       #Genera shell tranSFTP_entidad.sh de transmision
-      NOM_ARCH_TRANSM="TX_INV_FUNDACION_AAAAMMDD.sh"
+      NOM_ARCH_TRANSM="TX_MX_INV_FUNDACION_AAAAMMDD.sh"
       echo "Inicia creacion de SHELL de transmision ${NOM_ARCH_TRANSM}"
       rm -f ${PATH_SHELLS}/${NOM_ARCH_TRANSM}
       echo "#Shell que transmite archivo de ${ORIGEN} a ${DESTINO}" > ${PATH_SHELL}/${NOM_ARCH_TRANSM}

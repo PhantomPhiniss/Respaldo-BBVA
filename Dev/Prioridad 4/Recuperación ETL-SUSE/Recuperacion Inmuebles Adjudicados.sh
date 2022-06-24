@@ -3,7 +3,7 @@
 # BBVA Mexico: AUTO SERVICIO INVITACION                                                #
 # Archivo             : Recuperacion BBVA                                              #
 # Autor               : Diego Rodrigo Fernández Zamora                                 #
-# Objetivo            : Recupera el archivo : RX_ARCH_RES_INMADJ_AAAAMMDD              #
+# Objetivo            : Recupera el archivo : RX_MX_ARCH_RES_INMADJ_AAAAMMDD              #
 # Periodicidad        : Mensual                                                        #
 # Creacion            :                                                                #
 # Genera              : SHELL que RECSFTP.sh  que realiza la Recuperación              #
@@ -19,8 +19,8 @@ ROOT_PATH_=/filesystem/sftptrans/Qualtrics   ###Ruta donde esta la carpeta de sc
 
 PATH_SHELLS=${ROOT_PATH}scripts   ###Ruta donde están los scripts
 #### Nombre del archivo
-NOM_ARCH=${ARCH_RES_INMADJ_AAAAMMDD}
-NOM_ARCH_SHELL="RX_ARCH_RES_INMADJ_AAAAMMDD.sh"  
+NOM_ARCH=${RX_MX_ARCH_RES_INMADJ_AAAAMMDD}
+NOM_ARCH_SHELL="RX_MX_ARCH_RES_INMADJ_AAAAMMDD.sh"  
 
 
 #Se determina RUTA ORIGEN Entidad_Externa

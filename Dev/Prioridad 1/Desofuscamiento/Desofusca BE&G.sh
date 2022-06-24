@@ -1,11 +1,12 @@
 !/bin/bash
 #######################################################################################
-# BBVA Mexico
-# Archivo        : 
-# Autor          : Diego Rodrigo Fernández Zamora
-# Proposito      : Shell para la ejecución del Des ofuscamiento 
-# Parametros     : 
-####################################################################################### 
+# BBVA Mexico                                                                          #
+# Archivo             : Envio de Archivo                                               #
+# Autor               : Diego Rodrigo FernÃ¡ndez Zamora                                 #
+# Periodicidad        : Mensual                                                        #
+# Creacion            :                                                                #
+# Genera              : SHELL para ejecutar el desofuscamiento                         #  
+#######################################################################################
 
 set -xv
 PROCESO=CLIENTE_RESLBASR
@@ -89,7 +90,7 @@ main_descofusca ()
    if [ -e ${OUTPUT_PATH}/${OUTPUT_FILE} ]
       then
          chmod -f 775 ${OUTPUT_PATH}/${OUTPUT_FILE}
-         echo "Finaliza ejecución DesOfuscamiento ${PROCESO}"
+         echo "Finaliza ejecuciï¿½n DesOfuscamiento ${PROCESO}"
       exit 0
    else 
       echo "Falla en el proceso de DesOfuscamiento ${PROCESO}"
@@ -98,7 +99,7 @@ main_descofusca ()
 }
 
 #######################################
-#  Ejecución de shell                 #
+#  Ejecuciï¿½n de shell                 #
 #######################################
 echo "Comienza ejecucion DesOfuscamiento ${PROCESO}"
 main_descofusca

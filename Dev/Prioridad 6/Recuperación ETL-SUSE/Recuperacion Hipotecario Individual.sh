@@ -3,7 +3,7 @@
 # BBVA Mexico: AUTO SERVICIO INVITACION                                                #
 # Archivo             : Recuperacion BBVA                                              #
 # Autor               : Diego Rodrigo Fernández Zamora                                 #
-# Objetivo            : Recupera el archivo : RX_RES_HIPIND_AAAAMMDD                   #
+# Objetivo            : Recupera el archivo : RX_MX_RES_HIPIND_AAAAMMDD                   #
 # Periodicidad        : Mensual                                                        #
 #######################################################################################
 
@@ -17,8 +17,8 @@ ROOT_PATH_=/filesystem/sftptrans/Qualtrics   ###Ruta donde esta la carpeta de sc
 
 PATH_SHELLS=${ROOT_PATH}scripts   ###Ruta donde están los scripts
 #### Nombre del archivo
-NOM_ARCH=${RES_HIPIND_AAAAMMDD}
-NOM_ARCH_SHELL="RX_RES_HIPIND_AAAAMMDD.sh"  
+NOM_ARCH=${RX_MX_RES_HIPIND_AAAAMMDD}
+NOM_ARCH_SHELL="RX_MX_RES_HIPIND_AAAAMMDD.sh"  
 
 
 #Se determina RUTA ORIGEN Entidad_Externa

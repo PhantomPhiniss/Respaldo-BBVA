@@ -1,8 +1,8 @@
 !/bin/bash
 #######################################################################################
 # BBVA Mexico#
-# Autor          : Diego Rodrigo Fernández Zamora#
-# Proposito      : Shell para la ejecución del Des ofuscamiento#
+# Autor          : Diego Rodrigo Fernï¿½ndez Zamora#
+# Proposito      : Shell para la ejecuciï¿½n del Des ofuscamiento                      #
 ####################################################################################### 
 
 set -xv
@@ -87,7 +87,7 @@ main_descofusca ()
    if [ -e ${OUTPUT_PATH}/${OUTPUT_FILE} ]
       then
          chmod -f 775 ${OUTPUT_PATH}/${OUTPUT_FILE}
-         echo "Finaliza ejecución DesOfuscamiento ${PROCESO}"
+         echo "Finaliza ejecuciï¿½n DesOfuscamiento ${PROCESO}"
       exit 0
    else 
       echo "Falla en el proceso de DesOfuscamiento ${PROCESO}"
@@ -96,7 +96,7 @@ main_descofusca ()
 }
 
 #######################################
-#  Ejecución de shell                 #
+#  Ejecuciï¿½n de shell                 #
 #######################################
 echo "Comienza ejecucion DesOfuscamiento ${PROCESO}"
 main_descofusca

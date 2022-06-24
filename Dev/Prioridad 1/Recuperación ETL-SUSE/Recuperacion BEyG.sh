@@ -3,7 +3,7 @@
 # BBVA Mexico: AUTO SERVICIO INVITACION                                                #
 # Archivo             : Diego Rodrigo Fernández Zamora                                 #
 # Autor               : Operative Scheduling                                           #
-# Objetivo            : Recupera el archivo  : RX_MX_ARCH_INV_BEYG_AAAAMMDD            #
+# Objetivo            : Recupera el archivo  : RX_MX_ARCH_RES_BEYG_AAAAMMDD            #
 #                       de Equipo     ruta Origen                                      #
 #                       a  Entidad Externa  Ruta destino                               #
 # Periodicidad        : Mensual                                                        #
@@ -22,7 +22,7 @@ ROOT_PATH_=/filesystem/sftptrans/Qualtrics   ###Ruta donde esta la carpeta de sc
 PATH_SHELLS=${ROOT_PATH}scripts   ###Ruta donde están los scripts
 #### Nombre del archivo
 NOM_ARCH=${ARCH_RES_BEYG_AAAAMMDD}
-NOM_ARCH_SHELL="RX_ARCH_RES_BEYG_AAAAMMDD.sh"  
+NOM_ARCH_SHELL="RX_MX_ARCH_RES_BEYG_AAAAMMDD.sh"  
 
 
 #Se determina RUTA ORIGEN Entidad_Externa

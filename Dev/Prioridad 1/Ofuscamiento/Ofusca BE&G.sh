@@ -1,16 +1,19 @@
 !/bin/bash
 #######################################################################################
-#  BBVA Mexico                                                                        #
-# Autor          : Diego Rodrigo Fernández Zamora                                     #
-# Proposito      : Shell para la ejecución del Ofuscamiento                           #
-####################################################################################### 
+# BBVA Mexico                                                                          #
+# Archivo             : Envio de Archivo                                               #
+# Autor               : Diego Rodrigo FernÃ¡ndez Zamora                                 #
+# Objetivo            : Shell para la ejecuciï¿½n del Ofuscamiento                      #
+# Periodicidad        : Mensual                                                        #
+# Creacion            :                                                                #  
+#######################################################################################
 
 set -xv
 PROCESO=CLIENTE_BPYPREL
 echo "#*********************************************************************************#"
 echo "#                                                                                 #"
 echo "#                                                                                 #"
-echo "# ========= Shell que realiza el proceso de Ofuscamiento de ${PROCESO} =========  #"
+echo "# ========= Shell que realiza el proceso de Ofuscamiento de ${PROCESO} =========  #" 
 echo "#                                                                                 #"
 echo "#                                                                                 #"
 echo "#*********************************************************************************#"
@@ -81,7 +84,7 @@ then
   rm -f ${OUTPUT_PATH}/${OUTPUT_FILE}
 fi
 
-#echo 'Comienza ejecución Ofuscamiento ${PROCESO}' 
+#echo 'Comienza ejecuciï¿½n Ofuscamiento ${PROCESO}' 
 cd ${ROOT_PATH}
 ssh ${SERVER_OFUSCA} ${INSTRUCC} ${PATH_INPUT}/${INPUT_FILE} ${OUTPUT_PATH}/${OUTPUT_FILE} ${ISERVERIPC} ${USUARIO_SERV} ${PASS_SERV}
 cd ${OUTPUT_PATH}
@@ -90,7 +93,7 @@ cd ${OUTPUT_PATH}
 if [ -e ${OUTPUT_PATH}/${OUTPUT_FILE} ]
 then
    chmod -f 666 ${OUTPUT_PATH}/${OUTPUT_FILE}
-   echo "Finaliza ejecución Ofuscamiento ${PROCESO}"
+   echo "Finaliza ejecuciï¿½n Ofuscamiento ${PROCESO}"
    exit 0
 else 
    echo "Falla en el proceso de Ofuscamiento ${PROCESO}"
@@ -99,7 +102,7 @@ fi
 }
 
 #######################################
-#  Ejecución de shell                 #
+#  Ejecuciï¿½n de shell                 #
 #######################################
 
 if [ -s ${OUTPUT_PATH}/${INPUT_FILE} ] 

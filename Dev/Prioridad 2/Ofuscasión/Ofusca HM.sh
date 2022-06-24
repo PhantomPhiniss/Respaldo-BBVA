@@ -2,8 +2,9 @@
 #######################################################################################
 # BBVA Mexico                                                                         #
 # Archivo        :                                                                    #
-# Autor          : Diego Rodrigo Fernández Zamora                                     #
-# Proposito      : Shell para la ejecución del Ofuscamiento                           #
+# Autor          : Diego Rodrigo Fernï¿½ndez Zamora                                     #
+# Proposito      : Shell para la ejecuciï¿½n del Ofuscamiento                           #
+# Periodicidad   : Mensual                                                            #
 ####################################################################################### 
 
 set -xv
@@ -80,7 +81,7 @@ then
   rm -f ${OUTPUT_PATH}/${OUTPUT_FILE}
 fi
 
-#echo 'Comienza ejecución Ofuscamiento ${PROCESO}' 
+#echo 'Comienza ejecuciï¿½n Ofuscamiento ${PROCESO}' 
 cd ${ROOT_PATH}
 ssh ${SERVER_OFUSCA} ${INSTRUCC} ${PATH_INPUT}/${INPUT_FILE} ${OUTPUT_PATH}/${OUTPUT_FILE} ${ISERVERIPC} ${USUARIO_SERV} ${PASS_SERV}
 cd ${OUTPUT_PATH}
@@ -89,7 +90,7 @@ cd ${OUTPUT_PATH}
 if [ -e ${OUTPUT_PATH}/${OUTPUT_FILE} ]
 then
    chmod -f 666 ${OUTPUT_PATH}/${OUTPUT_FILE}
-   echo "Finaliza ejecución Ofuscamiento ${PROCESO}"
+   echo "Finaliza ejecuciï¿½n Ofuscamiento ${PROCESO}"
    exit 0
 else 
    echo "Falla en el proceso de Ofuscamiento ${PROCESO}"
@@ -98,7 +99,7 @@ fi
 }
 
 #######################################
-#  Ejecución de shell                 #
+#  Ejecuciï¿½n de shell                 #
 #######################################
 
 if [ -s ${OUTPUT_PATH}/${INPUT_FILE} ] 
