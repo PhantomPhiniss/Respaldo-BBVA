@@ -159,13 +159,6 @@
     "metadata": false,
     "default": ""
   }, {
-    "name": "dato_unico",
-    "type": ["string", "null"],
-    "logicalFormat": "ALPHANUMERIC(22)",
-    "deleted": false,
-    "metadata": false,
-    "default": ""
-  }, {
     "name": "cliente_id",
     "type": ["string", "null"],
     "logicalFormat": "ALPHANUMERIC(8)",
