@@ -1,0 +1,176 @@
+{
+  "namespace": "mctd",
+  "name": "t_aten_lbbva_call_log",
+  "doc": "Tabla de registro de llamadas al call center de 4 celulas: Hipotecario, Cash Magement, Consumer Finance, Telemarketing (ingesta de datos en otra tabla) del proveedor de Atento. El universo de clientes corresponde a aquellos que otorgaron su aprobacion para ser contactados y estan amparados por la Ley ARCO.",
+  "database": "raw",
+  "storageZone": "Rawdata",
+  "storageType": "HDFS-Avro",
+  "physicalPath": "/data/raw/aten/data/t_aten_lbbva_call_log",
+  "objectVersion": "1.0.0",
+  "type": "record",
+  "fields": [{
+    "name": "num_consecutivo",
+    "type": ["string", "null"],
+    "logicalFormat": "ALPHANUMERIC(20)",
+    "deleted": false,
+    "metadata": false,
+    "default": ""
+  }, {
+    "name": "grupo",
+    "type": "string",
+    "logicalFormat": "ALPHANUMERIC(60)",
+    "deleted": false,
+    "metadata": false,
+    "default": ""
+  }, {
+    "name": "coach",
+    "type": ["string", "null"],
+    "logicalFormat": "ALPHANUMERIC(60)",
+    "deleted": false,
+    "metadata": false,
+    "default": ""
+  }, {
+    "name": "asesor",
+    "type": ["string", "null"],
+    "logicalFormat": "ALPHANUMERIC(60)",
+    "deleted": false,
+    "metadata": false,
+    "default": ""
+  }, {
+    "name": "usuario_x0",
+    "type": "string",
+    "logicalFormat": "ALPHANUMERIC(10)",
+    "deleted": false,
+    "metadata": false,
+    "default": ""
+  }, {
+    "name": "usuario_acd_login",
+    "type": ["string", "null"],
+    "logicalFormat": "ALPHANUMERIC(10)",
+    "deleted": false,
+    "metadata": false,
+    "default": ""
+  }, {
+    "name": "site_dc",
+    "type": ["string", "null"],
+    "logicalFormat": "ALPHANUMERIC(10)",
+    "deleted": false,
+    "metadata": false,
+    "default": ""
+  }, {
+    "name": "fecha",
+    "type": "string",
+    "logicalFormat": "DATE",
+    "deleted": false,
+    "metadata": false,
+    "default": "",
+    "format": "dd/MM/yyyy",
+    "locale": "es-mx"
+  }, {
+    "name": "hora",
+    "type": "string",
+    "logicalFormat": "TIME",
+    "deleted": false,
+    "metadata": false,
+    "default": "",
+    "format": "HH:mm:ss"
+  }, {
+    "name": "id_llamada_origen",
+    "type": ["string", "null"],
+    "logicalFormat": "ALPHANUMERIC(10)",
+    "deleted": false,
+    "metadata": false,
+    "default": ""
+  }, {
+    "name": "clasificacion",
+    "type": "string",
+    "logicalFormat": "ALPHANUMERIC(120)",
+    "deleted": false,
+    "metadata": false,
+    "default": ""
+  }, {
+    "name": "subclasificacion",
+    "type": "string",
+    "logicalFormat": "ALPHANUMERIC(120)",
+    "deleted": false,
+    "metadata": false,
+    "default": ""
+  }, {
+    "name": "customer_name",
+    "type": "string",
+    "logicalFormat": "ALPHANUMERIC(60)",
+    "deleted": false,
+    "metadata": false,
+    "default": ""
+  }, {
+    "name": "phone_id",
+    "type": ["string", "null"],
+    "logicalFormat": "ALPHANUMERIC(14)",
+    "deleted": false,
+    "metadata": false,
+    "default": ""
+  }, {
+    "name": "tel_oficina",
+    "type": ["string", "null"],
+    "logicalFormat": "ALPHANUMERIC(14)",
+    "deleted": false,
+    "metadata": false,
+    "default": ""
+  }, {
+    "name": "email_desc",
+    "type": "string",
+    "logicalFormat": "ALPHANUMERIC(80)",
+    "deleted": false,
+    "metadata": false,
+    "default": ""
+  }, {
+    "name": "clasificacion_tipo_de_llamada",
+    "type": ["string", "null"],
+    "logicalFormat": "ALPHANUMERIC(50)",
+    "deleted": false,
+    "metadata": false,
+    "default": ""
+  }, {
+    "name": "lada",
+    "type": ["string", "null"],
+    "logicalFormat": "NUMERIC SHORT",
+    "deleted": false,
+    "metadata": false,
+    "default": ""
+  }, {
+    "name": "entidad_federativa",
+    "type": ["string", "null"],
+    "logicalFormat": "ALPHANUMERIC(40)",
+    "deleted": false,
+    "metadata": false,
+    "default": ""
+  }, {
+    "name": "supplier_agreement_name",
+    "type": ["string", "null"],
+    "logicalFormat": "ALPHANUMERIC(15)",
+    "deleted": false,
+    "metadata": false,
+    "default": ""
+  }, {
+    "name": "tipo_de_interaccion",
+    "type": ["string", "null"],
+    "logicalFormat": "ALPHANUMERIC(16)",
+    "deleted": false,
+    "metadata": false,
+    "default": ""
+  }, {
+    "name": "dato_unico",
+    "type": ["string", "null"],
+    "logicalFormat": "ALPHANUMERIC(22)",
+    "deleted": false,
+    "metadata": false,
+    "default": ""
+  }, {
+    "name": "cliente_id",
+    "type": ["string", "null"],
+    "logicalFormat": "ALPHANUMERIC(8)",
+    "deleted": false,
+    "metadata": false,
+    "default": ""
+  }]
+}
