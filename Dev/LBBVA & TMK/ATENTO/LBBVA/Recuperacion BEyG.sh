@@ -7,6 +7,8 @@
 #                       de Equipo     ruta Origen                                      #
 #                       a  Entidad Externa  Ruta destino                               #
 # Periodicidad        : Mensual                                                        #
+# Creacion            :                                                                #
+# Genera              : SHELL que RECSFTP.sh  que realiza la Recuperación              #
 #######################################################################################
 
 set -xv

@@ -1,11 +1,11 @@
 {
   "namespace": "mctd",
-  "name": "t_aten_lbbva_call_log",
+  "name": "t_vcip_tmk_call_log",
   "doc": "Tabla de registro de llamadas al call center de 4 celulas: Hipotecario, Cash Magement, Consumer Finance, Telemarketing (ingesta de datos en otra tabla) del proveedor de Atento. El universo de clientes corresponde a aquellos que otorgaron su aprobacion para ser contactados y estan amparados por la Ley ARCO.",
   "database": "raw",
   "storageZone": "Rawdata",
   "storageType": "HDFS-Avro",
-  "physicalPath": "/data/raw/aten/data/t_aten_tmk_call_log",
+  "physicalPath": "/data/raw/vcip/data/t_vcip_tmk_call_log",
   "objectVersion": "1.0.0",
   "type": "record",
   "fields": [{
